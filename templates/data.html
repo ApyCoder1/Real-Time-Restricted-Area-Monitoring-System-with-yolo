@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Detection Data</title>
+    <link rel="stylesheet" href="/static/data.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script> <!-- FontAwesome for icons -->
+    <script src="/static/data.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Detection Data</h1>
+        
+        <!-- Connection Status Indicator -->
+        <div id="connection-status" class="status disconnected">
+            <i class="fas fa-plug"></i> Disconnected
+        </div>
+        
+        <!-- Loading Spinner -->
+        <div id="loading-spinner" class="spinner">
+            <i class="fas fa-spinner fa-spin"></i> Loading data...
+        </div>
+
+        <!-- Data Table -->
+        <table id="data-table" class="styled-table">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Class</th>
+                    <th>Confidence</th>
+                    <th>Restricted Area Violation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be populated here -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
