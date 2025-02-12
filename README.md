@@ -41,7 +41,6 @@ uvicorn fastapi_run:app --reload
 ```
 
 - 🔗 **Server URL:** [http://127.0.0.1:8000](http://127.0.0.1:8000)
-- 🔗 **WebSocket Endpoint:** `ws://127.0.0.1:8000/ws`
 
 ### 3️⃣ **Launch Streamlit Dashboard**
 
