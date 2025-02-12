@@ -50,7 +50,7 @@ Start the Streamlit frontend:
 streamlit run streamlit_run.py
 ```
 
-- 📊 **Your real-time dashboard will open in your web browser!**
+- 📊 **Your real-time  Video Streaming dashboard will open in your web browser!**
 
 ---
 
